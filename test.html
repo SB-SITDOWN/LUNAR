@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Testing circles and animation.</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="fx.js"></script>
+<style type="text/css">
+
+body {
+background-color: #666666;
+}
+
+#circle {
+background-image: url(circle.gif);
+background-repeat:no-repeat;      
+background-position: left top;
+position:absolute;
+background-position:0 0;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="circle"> Sample Class </div>
+<script type="text/javascript">
+
+var moveit={type:'backgroundx', from:0, to:500, step:1, delay: 10};
+
+$fx('#circle').fxAdd(moveit).fxRun();
+
+</script>
+
+</body>
+
+</html>

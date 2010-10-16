@@ -1,0 +1,9 @@
+How do i readme?
+------------------------
+
+Welcome to the lunar repository! Mostly I'm testing out the README and other files right now. Once we get the hang of this, the README file shall contain important information in regards to
+
+* how to form babby
+* figuring out the meaning of life
+* discovering the joys of unordered lists
+* and maybe something about LUNAR
